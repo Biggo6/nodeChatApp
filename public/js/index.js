@@ -23,6 +23,7 @@ jQuery('#message-form').on('submit', function(e) {
        
     });
     $('#p').html('');
+    jQuery('[name=message]').val('');
 });
 
 jQuery('#mes').on('keyup', function() {
